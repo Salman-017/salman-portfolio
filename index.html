@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salman Sanadi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="nav-logo">Salman Sanadi</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Salman Sanadi</h1>
+      <p>Code · Create · Innovate</p>
+    </div>
+    <a href="#about" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <div class="sub-section">
+        <h2>About Me</h2>
+        <p id="aboutme-info">
+          I'm Salman Sanadi, a Computer Science student at KLE Technological University with expertise in full-stack development. My recent internship at NVIDIA focused on evaluating SNR degradation effects on DNN object detection. Passionate about solving real-world problems through technology, I've developed systems ranging from smart crop detection to automated exam management. With over 200 competitive programming challenges completed, I thrive on complex problem-solving and innovative solutions.
+        </p>
+      </div>
+
+      <div class="sub-section">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Bachelor of Engineering in Computer Science</h3>
+          <p class="edu-institute">KLE Technological University</p>
+          <p class="edu-year">Expected Graduation: 2026</p>
+          <p class="edu-grade"><strong>CGPA:</strong> 8.93</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="sub-section">
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+          <h3>NVIDIA - Project Intern</h3>
+          <p class="experience-date">Aug 2024 - Jan 2025</p>
+          <ul class="experience-details">
+            <li>Designed a framework to evaluate the effect of SNR degradation on deep neural network performance, with an emphasis on small object detection.</li>
+            <li>Processed a dataset of 9,744 images with varying noise levels (6dB to 28dB) and trained a YOLO model for object detection.</li>
+            <li>Investigated layer freezing techniques to improve detection accuracy, particularly for small objects in noisy conditions.</li>
+            <li>Attained a 76.8% mAP@0.5 on the combined dataset and observed better performance for small objects under high-noise conditions.</li>
+            <li>Proposed optimization strategies to enhance model resilience in low-SNR environments, addressing challenges in real-world vision applications.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="sub-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>C/C++</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Web Technologies</h3>
+            <ul>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>Git/GitHub</li>
+              <li>Docker</li>
+              <li>Linux</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="sub-section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Exam Management System</h3>
+              <p class="project-desc">
+                Developed an IA exam management system to automate student allocation to exam rooms, distribute required papers, and assign faculty for invigilation. The system ensures fair seating, accurate paper distribution, and balanced faculty assignments.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Smart Crop Health Detection</h3>
+              <p class="project-desc">
+                Created a machine learning model to detect healthy and stressed potato crops using image analysis. The system processes crop images, identifies key features, and classifies them based on health. Helps farmers spot stressed crops early for timely intervention.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">OpenCV</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="business-cases" class="section">
+      <div class="sub-section">
+        <h2>Microsoft Business Cases</h2>
+        <div class="use-case-list">
+          <div class="use-case-item">
+            <h3>DAX Copilot</h3>
+            <p>
+              DAX Copilot uses Azure AI & Nuance to auto-generate clinical notes from doctor-patient conversations, cutting documentation time by 50%. FDA-approved and used in 90% of U.S. hospitals, it reduces burnout by 30% while saving $30K per doctor annually.
+            </p>
+          </div>
+          <div class="use-case-item">
+            <h3>Accenture Mesh</h3>
+            <p>
+              Accenture uses Microsoft Mesh to create immersive 3D workspaces where employees collaborate via holograms and avatars in virtual offices. Powered by Azure cloud and HoloLens, it enables global teams to interact in real time, reducing the need for travel while boosting engagement.
+            </p>
+          </div>
+          <div class="use-case-item">
+            <h3>Microsoft Fabric</h3>
+            <p>
+              JPMorgan Chase leverages Microsoft Fabric's AI-driven analytics to detect real-time payment fraud and money laundering patterns.
+            </p>
+          </div>
+          <div class="use-case-item">
+            <h3>Microsoft Azure AI for Climate</h3>
+            <p>
+              Google's latest AI chip delivers a 3,600x leap in inference power, drastically reducing processing time and energy use for large-scale AI workloads, transforming the economics of AI deployment.
+            </p>
+          </div>
+          <div class="use-case-item">
+            <h3>Azure Quantum Elements</h3>
+            <p>
+              Johnson & Johnson uses Azure Quantum to simulate molecular interactions for cancer drug design, accelerating R&D that would take decades on classical supercomputers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="sub-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <form action="https://formsubmit.co/salmansanadi54@gmail.com" method="POST" class="contact-form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Message from Portfolio">
+            
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Hello Salman, I wanted to discuss..."></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+          
+          <div class="social-links">
+            <a href="https://github.com/Salman-017" target="_blank" class="social-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="http://www.linkedin.com/in/salman-a-sanadi" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:salmansanadi54@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Salman Sanadi. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  
+</body>
+</html>
